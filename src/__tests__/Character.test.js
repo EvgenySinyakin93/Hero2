@@ -54,6 +54,7 @@ test("Checking damage", () => {
 import Bowerman from "../js/Bowerman.js";
 import Character from "../js/Character.js";
 
+<<<<<<< HEAD
 test("checking Bowerman", () => {
   const character = new Character("Hero", "Bowerman");
   const correctCharacter = {
@@ -65,6 +66,8 @@ test("checking Bowerman", () => {
   expect(character).toEqual(correctCharacter);
 });
 
+=======
+>>>>>>> b9361f9f4846b2bfc5496096d7f85ceb59b850b8
 test("Checking name", () => {
   expect(() => new Character("B", "Bowerman")).toThrow(
     "Длина имени персонажа не корректна.Выберите имя от 2 до 10 символов"
